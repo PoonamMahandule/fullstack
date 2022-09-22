@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scripts/userDetails.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+  <table class="table table-hover">
+    <thead>
+      <h1>Employee Detail</h1>
+      <center><button onclick="show()">Show detail</button></center>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Employee Name</th>
+        <th scope="col">Password</th>
+        <th scope="col">Email</th>
+        <th scope="col">City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">1</td>
+        <th id="name"></th>
+        <td id="pass"></td>
+        <td id="email"></td>
+        <td id="city"></td>
+      </tr>
+     
+    </tbody>
+  </table>
+  </div>
+  <script src="scripts/userDetails.js"></script>
+</body>
+</html>

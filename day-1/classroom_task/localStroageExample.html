@@ -1,0 +1,40 @@
+<!-- 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="showName"></div>
+    <from onsubmit="event.preventDefault()" name="fdata">
+        User Name: <input type="text" name='uname' required placeholder="enter the name" />
+        <button onclick='addData()'>save the name</button>
+    </from>
+    <button onclick='showData()'>show the name</button>
+    <script src="scripts/localstrpoge.js"></script>
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form onsubmit="event.preventDefault()" name="fdata">
+UserName: <input type="text" name='uname' required/>
+<button onclick="addData()">add</button>
+    </form>
+    <button onclick="showData()">show</button>
+    <br/>
+    <div id='show'></div>
+ <script src="scripts/localstrpoge.js"></script>
+</body>
+</html>
